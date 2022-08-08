@@ -7,5 +7,109 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Noticias Jujuy</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <!-- Navbar -->
+      <nav id="navbar">
+        <div class="container">
+          <ul id="enlaces">
+            <li><a href="#">Home</a></li>
+            <li><a href="#publicaciones">Noticias</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <h1 class="logo"><a href="">LOGO</a></h1>
+        </div>
+      </nav>
+      <!-- Showcase -->
+      <div id="showcase">
+        <div class="container">
+          <div class="showcase-text">
+            <h1 class="titulo">Jujuy Noticias</h1>
+            <h2 class="subtitulo">"Brindamos Noticias del Mundo"</h2>
+          </div>
+          <div class="showcase-img">
+            <img src="https://picsum.photos/id/250/600/400" alt="showcase" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Noticias -->
+      <section id="publicaciones">
+        <div class="noticia">
+          <div class="noticia-contenido">
+            <div class="subtitulo">
+              <h2>Subtitulo</h2>
+            </div>
+            <div class="parrafo">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit repudiandae animi sit harum ducimus ab, similique
+                laborum possimus, repellat, vero eum debitis quae consequatur at
+                omnis libero delectus qui praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="noticia-img">
+            <img src="https://picsum.photos/id/1040/600/400" alt="noticia" />
+          </div>
+        </div>
+
+        <div class="noticia">
+          <div class="noticia-contenido">
+            <div class="subtitulo">
+              <h2>Subtitulo</h2>
+            </div>
+            <div class="parrafo">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit repudiandae animi sit harum ducimus ab, similique
+                laborum possimus, repellat, vero eum debitis quae consequatur at
+                omnis libero delectus qui praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="noticia-img">
+            <img src="https://picsum.photos/id/1040/600/400" alt="noticia" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Formulario de Contacto -->
+      <section id="contacto">
+        <div class="container">
+          <div class="formulario-contacto">
+            <form action="">
+              <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                  name="mensaje"
+                  id="mensaje"
+                  cols="30"
+                  rows="10"
+                  class="form-control"
+                >
+                </textarea>
+              </div>
+              <button class="btn btn-ligth">Enviar</button>
+            </form>
+          </div>
+
+          <div class="titulo-contacto">
+            <h2>Informanos tu noticia</h2>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
