@@ -8,8 +8,8 @@
 
 html,
 body {
-  background-color: #adc178;
   font-family: "Libre Franklin", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -52,7 +52,9 @@ header {
 }
 
 .navbar .enlaces a:hover {
-  background-color: #005f73;
+  background-color: #f0ead2;
+  color: black;
+  font-weight: bold;
   transition: 0.5s;
 }
 
@@ -122,4 +124,61 @@ header {
 
 .noticia-img img {
   width: 500px;
+}
+
+/* Formulario */
+
+.contacto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+  background-color: #f0ead2;
+}
+
+.contacto .titulo-contacto {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.contacto .formulario-contacto {
+  width: 400px;
+  padding: 30px;
+  border-radius: 4px;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contacto .formulario-contacto .form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  /* display: block; */
+  width: 100%;
+  line-height: 1.7;
+  border: none;
+  font-size: 1rem;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.btn {
+  width: 100%;
+  color: #ffffff;
+  background-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  transition: 0.5s;
+  background-color: #ffffff;
+  color: black;
 }
